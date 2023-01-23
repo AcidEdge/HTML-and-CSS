@@ -1,0 +1,42 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-top: 10%;
+
+}
+
+.grid-item {
+    border: solid rgb(185, 63, 8);
+    border-radius: 15px;
+    padding: 5px;
+}
+
+h1, h3, figcaption {
+    text-align: center;
+    font-family: 'Oswald', Verdana, Arial, sans-serif;
+    font-weight: 400;
+    color: rgb(185, 63, 8);
+}
+
+img {
+    width: 400px;
+    height: 350px;
+}
+
+figure {
+    text-align: center;
+}
+
+figcaption {
+    font-style: italic;
+    font-size: .75em;
+}
+
+body {
+    background-color: rgb(247, 112, 24, .2);
+}
+
+.back {
+    float: right;
+    margin-top: 10%;
+}
